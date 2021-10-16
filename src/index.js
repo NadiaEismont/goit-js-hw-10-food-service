@@ -45,6 +45,7 @@ switch (savedTheme) {
         break;
     default:
         bodyRef.classList.add('light-theme');
+        localStorage.setItem('localStorageTheme', Theme.LIGHT);
 }
 
 
